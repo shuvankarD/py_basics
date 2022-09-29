@@ -12,15 +12,21 @@
 
 # print(x)
 
-import math 
-x = math.sqrt(64)
+# import math 
+# x = math.sqrt(64)
 
-print(x)
+# print(x)
+
+# import math
+
+# x = math.ceil(1.3)
+# y = math.floor(1.9)
+
+# print(x) # returns 2
+# print(y) # returns 1
 
 import math
 
-x = math.ceil(1.3)
-y = math.floor(1.9)
+x = math.pi
 
-print(x) # returns 2
-print(y) # returns 1
+print(x)
