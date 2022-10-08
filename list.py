@@ -146,8 +146,26 @@
 
 # print(nn)
 
-my_list = [3, 8, 1, 6, 8, 8, 4]
+# my_list = [3, 8, 1, 6, 8, 8, 4]
 
-print(my_list.index(6))
-print(my_list.count(1))
+# print(my_list.index(6))
+# print(my_list.count(1))
 
+# pow2 = [3 ** x for x in range(10)]
+# print(pow2)
+
+
+# pow2 = []
+# for x in range(10):
+#    if x > 5: 
+#     pow2.append(x * 3)
+# print(pow2)
+
+# pow2 = [2 ** x for x in range(10) if x > 5]
+# print(pow2)
+
+#odd = [x for x in range(30) if x % 2 == 1]
+#print(odd)
+
+for fruit in ['apple','banana','mango']:
+    print("I like",fruit)
