@@ -93,14 +93,61 @@
 # print(my_list[:-3])
 # print(my_list[:])
 
-odd = [2, 4, 6, 8]
+# odd = [2, 4, 6, 8]
 
-# change the 1st item    
-odd[0] = 1            
+# # change the 1st item    
+# odd[0] = "hello"           
 
-print(odd)
+# print(odd)
 
-# change 2nd to 4th items
-odd[1:4] = [3, 5, 7]  
+# # change 2nd to 4th items
+# odd[1:4] = [3, 5, 7]  
 
-print(odd) 
+# print(odd) 
+
+# Appending and Extending lists in Python
+# odd = [1, 3, 5]
+
+# odd.append(8)
+
+# print(odd)
+
+# odd.extend([9,10,"Hui",2.09283])
+
+# print(odd)
+
+# odd = [1, 3, 5]
+
+# print(odd + [9, 7, 5])
+
+# print(["odd"] * 3)
+
+# odd = [1, 9]
+# odd.insert(3,2)
+
+# print(odd)
+
+# Deleting list items
+# my_list = ['p', 'r', 'o', 'b', 'l', 'e', 'm']
+
+# del my_list
+
+# my_list = [1,'r','o','b','l','e','m']
+
+# # my_list.remove(1)
+# # print(my_list)
+
+# my_list.clear()
+# print(my_list)
+
+# numbers = [8, 2, 3, 5]
+
+# nn = numbers.copy()
+
+# print(nn)
+
+my_list = [3, 8, 1, 6, 8, 8, 4]
+
+print(my_list.index(6))
+print(my_list.count(1))
+
