@@ -52,7 +52,10 @@
 # print(my_tuple.count('r'))
 # del my_tuple
 
-my_tuple = ('a', 'p', 'p', 'l', 'e',)
+# my_tuple = ('a', 'p', 'p', 'l', 'e',)
 
-print('a' in my_tuple)
-print("s" in my_tuple )
+# print('a' in my_tuple)
+# print("s" in my_tuple )
+
+for name in ('John', 'Kate'):
+    print("Hello", name)
